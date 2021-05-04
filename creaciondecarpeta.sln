@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "creaciondecarpeta", "creaciondecarpeta\creaciondecarpeta.csproj", "{1EA0BCB6-4E5D-4A40-9739-FF061EF2B41C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{F6A72AB5-98E9-4569-99AC-9806AC80E566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EA0BCB6-4E5D-4A40-9739-FF061EF2B41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA0BCB6-4E5D-4A40-9739-FF061EF2B41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA0BCB6-4E5D-4A40-9739-FF061EF2B41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA0BCB6-4E5D-4A40-9739-FF061EF2B41C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A72AB5-98E9-4569-99AC-9806AC80E566}.Debug|Any CPU.ActiveCfg = Debug
+		{F6A72AB5-98E9-4569-99AC-9806AC80E566}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2946ADC-EF7D-4C85-97D0-1E416D8E09DF}
+	EndGlobalSection
+EndGlobal
