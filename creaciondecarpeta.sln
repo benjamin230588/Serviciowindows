@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService1", "WindowsS
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorWS", "InstaladorWS\InstaladorWS.vdproj", "{341CAF87-4181-4E01-AA71-2B50FA5C48CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicioprueba", "servicioprueba\servicioprueba.csproj", "{9EB02326-DF8C-4455-90B6-22A4FF398EFA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "instalarprueba", "instalarprueba\instalarprueba.vdproj", "{79EE7F42-D005-4D36-A4AD-6E8C125842A2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "instalador64", "instalador64\instalador64.vdproj", "{EC36A581-AB57-42C2-81F5-1F744888B46E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +35,14 @@ Global
 		{D4797B64-0ACA-42E7-B8C1-90F191C81439}.Release|Any CPU.Build.0 = Release|Any CPU
 		{341CAF87-4181-4E01-AA71-2B50FA5C48CF}.Debug|Any CPU.ActiveCfg = Debug
 		{341CAF87-4181-4E01-AA71-2B50FA5C48CF}.Release|Any CPU.ActiveCfg = Release
+		{9EB02326-DF8C-4455-90B6-22A4FF398EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB02326-DF8C-4455-90B6-22A4FF398EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB02326-DF8C-4455-90B6-22A4FF398EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB02326-DF8C-4455-90B6-22A4FF398EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79EE7F42-D005-4D36-A4AD-6E8C125842A2}.Debug|Any CPU.ActiveCfg = Debug
+		{79EE7F42-D005-4D36-A4AD-6E8C125842A2}.Release|Any CPU.ActiveCfg = Release
+		{EC36A581-AB57-42C2-81F5-1F744888B46E}.Debug|Any CPU.ActiveCfg = Debug
+		{EC36A581-AB57-42C2-81F5-1F744888B46E}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

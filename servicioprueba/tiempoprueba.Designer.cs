@@ -1,7 +1,7 @@
 ﻿
-namespace WindowsService1
+namespace servicioprueba
 {
-    partial class Service2
+    partial class tiempoprueba
     {
         /// <summary> 
         /// Variable del diseñador necesaria.
@@ -29,24 +29,10 @@ namespace WindowsService1
         /// </summary>
         private void InitializeComponent()
         {
-            this.reloj = new System.Timers.Timer();
-            ((System.ComponentModel.ISupportInitialize)(this.reloj)).BeginInit();
-            // 
-            // reloj
-            // 
-            this.reloj.Enabled = true;
-            this.reloj.Interval = 3000D;
-            this.reloj.Elapsed += new System.Timers.ElapsedEventHandler(this.reloj_Elapsed);
-            // 
-            // Service2
-            // 
-            this.ServiceName = "Service2";
-            ((System.ComponentModel.ISupportInitialize)(this.reloj)).EndInit();
-
+            components = new System.ComponentModel.Container();
+            this.ServiceName = "tiempoprueba";
         }
 
         #endregion
-
-        private System.Timers.Timer reloj;
     }
 }
